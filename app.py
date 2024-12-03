@@ -36,7 +36,7 @@ Me diga por gentileza para que possa entender a sua necessidade e indicar a melh
 
 # Criar links personalizados do whatsapp e enviar mensagens para cada cliente
 # com base nos dados da planilha
-    # https://web.whatsapp.com/send?phone=5533991336956&text="como vc ta?"
+    # https://web.whatsapp.com/send?phone=number&text="como vc ta?"
     try:
         link_mensagem_whatsapp = f"https://web.whatsapp.com/send?phone={
             telefone}&text={quote(mensagem)}"
